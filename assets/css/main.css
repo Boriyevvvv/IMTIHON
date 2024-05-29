@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1000px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 0px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 30px;
+}
+
+.card{
+    border: 3px solid black;
+}
+
+.images{
+    width: 100%;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    color: dodgerblue;
+    padding: 10px;
+    
+}
+
+.box{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
